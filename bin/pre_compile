@@ -1,0 +1,8 @@
+_PROJECT_ROOT=/app
+
+# run apt-get for libraries
+echo "-----> apt-get libraries"
+sudo apt-get install libxmlsec1
+sudo apt-get install libxmlsec1-dev
+sudo apt-get install swig
+sudo apt-get install python-m2crypto
