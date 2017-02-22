@@ -6,3 +6,10 @@ if [ -f bin/pre_compile ]; then
     sub-env bin/pre_compile
 
 fi
+
+# run apt-get for libraries
+echo "-----> apt-get libraries"
+sudo apt-get install libxmlsec1
+sudo apt-get install libxmlsec1-dev
+sudo apt-get install swig
+sudo apt-get install python-m2crypto
