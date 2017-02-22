@@ -128,6 +128,7 @@ if [[ ! -f Procfile ]]; then
 fi
 
 # Experimental pre_compile hook.
+echo "-------> testing"
 bpwatch start pre_compile
   source $BIN_DIR/steps/hooks/pre_compile
 bpwatch stop pre_compile
